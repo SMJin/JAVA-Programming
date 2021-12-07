@@ -1,4 +1,4 @@
-package textbook.ch09.exercise.실전문제;
+package textbook.ch09.exercise.실습문제;
 
 import javax.swing.*;
 

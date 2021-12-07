@@ -3,7 +3,8 @@
 
 # Chapter 09 자바 GUI 기초, AWT와 스윙(Swing)
 ## [ch09 교재 예제](./src/textbook/ch09/swing)
-## [ch09 Exercise](./src/textbook/ch09/exercise)
+## [ch09 Exercise 이론문제](./src/textbook/ch09/exercise/이론문제)
+## [ch09 Exercise 실습문제](./src/textbook/ch09/exercise/실습문제)
 
 # Chapter 10 자바의 이벤트 처리
 
