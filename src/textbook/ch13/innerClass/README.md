@@ -91,3 +91,21 @@ OutClass.InStaticClass sInClass = new OutClass.InStaticClass();
 OutClass.InStaticClass.sTest();
 ```
 # 지역 내부 클래스 ([LocalInnerClass.java](./LocalInnerClass.java))
+#### Console
+```shell
+지역 내부 클래스를 사용하려면 이 클래스를 직접 생성하는 것이 아니라 외부 클래스의 메서드(getRunnable(int))를 거친다.
+Runnable runner = out.getRunnable(10);
+runner.run();
+지역 변수(num)는 상수로 바뀌므로 값을 변경할 수 없어 오류 발생
+매개변수(i)도 지역 변수처럼 상수로 바뀌므로 값을 변경할 수 없어 오류 발생
+i(출력은 가능)= 10
+num(출력은 가능)= 100
+localNum = 10
+outNum = 100(외부 클래스 인스턴스 변수)
+Outer.sNum = 200(외부 클래스 정적 변수)
+
+Process finished with exit code 0
+```
+#### 지역 내부 클래스에서 사용하는 메서드의 지역 변수는 모두 상수로 바뀐다.
+
+# 익명 내부 클래스 ([AnonymousInnerClass.java](./AnonymousInnerClass.java))
