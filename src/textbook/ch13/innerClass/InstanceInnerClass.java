@@ -1,6 +1,6 @@
 package textbook.ch13.innerClass;
 
-class OutClass {        // 외부 클래스
+class OutClass01 {        // 외부 클래스
     private int num = 10;           // 외부 클래스 private 변수
     private static int sNum = 20;   // 외부 클래스 정적 변수
 
@@ -10,7 +10,7 @@ class OutClass {        // 외부 클래스
     * 외부 클래스의 디폴트 생성자.
     * 외부 클래스가 생성된 이후에 내부 클래스 생성이 가능하다.
     * */
-    public OutClass() {
+    public OutClass01() {
         inClass = new InClass();
     }
 
@@ -49,7 +49,7 @@ class OutClass {        // 외부 클래스
 
 public class InstanceInnerClass {
     public static void main(String[] args) {
-        OutClass outClass = new OutClass();
+        OutClass01 outClass = new OutClass01();
         System.out.println("외부 클래스 이용하여 내부 클래스 기능 호출");
         outClass.usingClass();
     }
