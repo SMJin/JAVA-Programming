@@ -109,3 +109,11 @@ Process finished with exit code 0
 #### 지역 내부 클래스에서 사용하는 메서드의 지역 변수는 모두 상수로 바뀐다.
 
 # 익명 내부 클래스 ([AnonymousInnerClass.java](./AnonymousInnerClass.java))
+#### Console
+```shell
+100
+10
+Runnable 이 구현된 익명 클래스 변수
+
+Process finished with exit code 0
+```
