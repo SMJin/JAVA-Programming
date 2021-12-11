@@ -106,7 +106,7 @@ Outer.sNum = 200(외부 클래스 정적 변수)
 
 Process finished with exit code 0
 ```
-#### 지역 내부 클래스에서 사용하는 메서드의 지역 변수는 모두 상수로 바뀐다.
+#### ☆★ 지역 내부 클래스에서 사용하는 메서드의 지역 변수는 모두 상수로 바뀐다. ☆★
 
 # 익명 내부 클래스 ([AnonymousInnerClass.java](./AnonymousInnerClass.java))
 #### Console
