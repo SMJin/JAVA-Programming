@@ -18,8 +18,6 @@
 
 ###### Do it! 자바 프로그래밍 입문 교재 Exercise
 
-# Chapter 13-1 내부클래스
-
-
-# Chapter 13-2 람다식
-# Chapter 13-3 스트림
+# Chapter 13-1 [내부클래스](./src/textbook/ch13/innerClass)
+# Chapter 13-2 [람다식](./src/textbook/ch13/lambdaExpression)
+# Chapter 13-3 [스트림](./src/textbook/ch13/stream)
